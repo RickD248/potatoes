@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class batata {
+	
+	public static void main(String[] args) {
+		
+		//Vars
+		double valorfinal;
+		
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o valor da batata em quilos (Kg)");
+		double valorporpeso = in.nextDouble();
+		
+		System.out.println(" ");
+		
+		System.out.println("Digite o peso que deseja");
+		double pesodabatata = in.nextDouble();
+		
+		valorfinal = pesodabatata * valorporpeso;
+		System.out.println(" ");
+		
+		System.out.println("Valor a pagar: R$" + valorfinal);
+		
+      }
+	
+}
